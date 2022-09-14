@@ -6,4 +6,7 @@
 
 
 ：
-这是main分支上的内容
+这是main分支上的内容,这是wx分支上的内容
+
+version 1
+version 2
