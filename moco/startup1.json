@@ -1,0 +1,14 @@
+[
+  {
+    "description": "mock示例",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+        "headers":{
+          "Content-Type":"text/html;charset=gbk"
+        },
+      "text": "mock框架demo"
+    }
+  }
+]

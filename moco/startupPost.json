@@ -1,0 +1,33 @@
+[
+  {
+    "description": "post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "headers": {
+      "Content-Type": "text/html;charset=gbk"
+    },
+
+      "text": "周六下午"
+    }
+  },
+  {
+    "description": "有参构造",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "huhansan",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "headers": {
+      "Content-Type": "text/html;charset=gbk"
+    },
+      "text": "听风暖"
+    }
+  }
+]

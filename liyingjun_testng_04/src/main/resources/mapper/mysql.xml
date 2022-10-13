@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liyingjun.controller">
+    <select id="getUserCount" resultType="Integer">
+        select count(*) from mybatis.tbl_book;
+    </select>
+
+    <insert id="addUser" parameterType="com.liyingjun.model.User">
+        insert into mybatis.tbl_book(id, type, description, name) VALUES (#{id},#{type},#{description},#{name})
+    </insert>
+
+    <update id="updateUser" parameterType="com.liyingjun.model.User">
+        update mybatis.tbl_book set name= #{name},type =#{type} where id=#{id}
+    </update>
+    
+    <delete id="deleteUser" parameterType="Integer">
+        delete from mybatis.tbl_book where id=#{id}
+    </delete>
+</mapper>

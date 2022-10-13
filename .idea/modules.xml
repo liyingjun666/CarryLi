@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CarryLi.iml" filepath="$PROJECT_DIR$/.idea/CarryLi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liyingjun_testng_01/liyingjun_testng_01.iml" filepath="$PROJECT_DIR$/liyingjun_testng_01/liyingjun_testng_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liyingjun_testng_02/liyingjun_testng_02.iml" filepath="$PROJECT_DIR$/liyingjun_testng_02/liyingjun_testng_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liyingjun_testng_03/liyingjun_testng_03.iml" filepath="$PROJECT_DIR$/liyingjun_testng_03/liyingjun_testng_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liyingjun_testng_04/liyingjun_testng_04.iml" filepath="$PROJECT_DIR$/liyingjun_testng_04/liyingjun_testng_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testng_01_01/testng_01_01.iml" filepath="$PROJECT_DIR$/testng_01_01/testng_01_01.iml" />
+    </modules>
+  </component>
+</project>
