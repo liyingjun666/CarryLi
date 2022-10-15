@@ -1,5 +1,8 @@
 <component name="libraryTable">
   <library name="Maven: org.apache.httpcomponents:httpclient:4.5.13">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/liyingjun_testng_05/src/main/java/com/liyingjun" />
+    </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar!/" />
     </CLASSES>

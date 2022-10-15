@@ -1,0 +1,27 @@
+server:
+  port: 8888
+logging:
+  file:
+    path: logs
+    name: userManager.log
+
+spring:
+  application:
+    name: useManager
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.30.77:13306/wx-test
+    username: dbapp
+    password: jY%kng8cc&
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
+mybatis-plus:
+  type-aliases-package: com.liyingjun.model
+  mapper-locations:
+    - mapper/*
+
+

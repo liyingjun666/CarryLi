@@ -15,7 +15,7 @@
 <!--                连接账号-->
                 <property name="username" value="dbapp"/>
 <!--                数据库密码-->
-                <property name="password" value="jY%kng8cc&"/>
+                <property name="password" value="jY%kng8cc&amp;"/>
             </dataSource>
         </environment>
     </environments>
